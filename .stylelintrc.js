@@ -84,5 +84,11 @@ module.exports = {
             "resize",
             "transition"
 		]
-  }
+  },
+  overrides: [
+    {
+      files: ["**/*.scss"],
+      customSyntax: "postcss-scss"
+    }
+  ]
 };
